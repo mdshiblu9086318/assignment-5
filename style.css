@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.search-bar{
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.meal-content{
+    margin-top: 50px;
+}
+.search-bar input{
+    padding: 10px 20px;
+    background-color: whitesmoke;
+}
+.search-bar button{
+    color: white;
+    padding: 10px 20px;
+    background-color:green;
+}
+#searchResult img{
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#searchResult h6{
+    color: black;
+    width: 300px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#searchResult{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 10px;
+}
+#mealDetails img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+#mealDetails h3{
+    margin-left: 20px;
+    font-weight: bold;
+}
+#mealDetails h5{
+    margin-left: 20px;
+    font-weight: bold;
+}
+#mealDetails p{
+    margin-left: 20px;
+    color: gray;
+}
+#mealDetails{
+    margin-left: 33%;
+}
